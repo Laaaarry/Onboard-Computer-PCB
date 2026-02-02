@@ -18,6 +18,8 @@ A simple onboard-computer using the STM32F103C8T6 microcontroller, programmed th
 
 ### LED Blink Test
 
+![Blink_vid1](Images_Videos/blink_gif.gif)
+
 ![Blink](Images_Videos/OBC_1.jpg)
 
 
