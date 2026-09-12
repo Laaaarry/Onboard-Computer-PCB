@@ -2,8 +2,16 @@
 
 ![Board Render](Images_Videos/OBC_3D_Render.png)
 
+Links:
+
+**[Schematic + layout PDF](FAB-Lawrence%20Fish%20and%20Microchips-A.1/Lawrence%20Fish%20and%20Microchips_Prints.PDF)**
+
+**[BOM](FAB-Lawrence%20Fish%20and%20Microchips-A.1/BOM/Bill%20of%20Materials-Lawrence%20Fish%20and%20Microchips.xlsx)**
+
+**[Fab package](FAB-Lawrence%20Fish%20and%20Microchips-A.1/)**
+
 ## Overview
-A simple onboard-computer using the STM32F103C8T6 microcontroller, programmed through JTAG, and includes I2C and other peripherals. Made through Altium and ordered through JLCPCB
+A simple onboard-computer using the STM32F103C8T6 microcontroller, programmed through JTAG, and includes I2C and other peripherals. 2-layer board with 32 components. Made through Altium and ordered through JLCPCB
 
 ## Key Images
 
@@ -17,6 +25,7 @@ A simple onboard-computer using the STM32F103C8T6 microcontroller, programmed th
 ![Soldered](Images_Videos/OBC_2.jpg)
 
 ### LED Blink Test
+To confirm the board is working, we programmed the microcontroller to blink its LED.
 
 ![Blink_vid1](Images_Videos/blink_gif.gif)
 
@@ -24,5 +33,6 @@ A simple onboard-computer using the STM32F103C8T6 microcontroller, programmed th
 
 
 ### I2C Testing
+We also tested the board's I2C capability. 
 
 ![I2C_Test](Images_Videos/I2CTest.jpg)
